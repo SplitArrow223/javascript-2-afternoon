@@ -15,7 +15,11 @@
 */
 
 //Code here
-
+const me = {
+  name: "Jason",
+  age: 22
+}
+alert(me.name);
 
 
 ////////// PROBLEM 2 //////////
@@ -26,15 +30,25 @@
 */
 
 //Code here
+let favoriteThings = {
+  band: "lifehouse",
+  food: "pom",
+  person: "mother",
+  book: "BOM",
+  movie: "LOTR",
+  holiday: "thanksgiving",
 
 
+}
 
 /*
-  After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
+After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 */
 
 //Code here
 
+favoriteThings.car = "f150";
+favoriteThings.brand = "Ford";
 
 
 /*
@@ -43,7 +57,8 @@
 
 //Code here
 
-
+favoriteThings.food = "Chicken Nuggets";
+favoriteThings.book = "Harry Potter";
 
 ////////// PROBLEM 3 //////////
 
@@ -56,15 +71,17 @@
 */
 
 //Code here
+let backPack = {}
 
-
-
+let item = "firstPocket";
+backPack[item] = "chapstick";
+backPack.color = "black";
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
-
+// alert(backPack);
 
 
 /*
@@ -74,6 +91,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
+console.log(backPack);
 
 
 
@@ -97,6 +115,8 @@ var user2 = {
 */
 
 //Code Here
+user2.name = 'Tyler S. McGinnis';
+user2.email = 'tyler.mcginnis@devmounta.in';
 
 
 
